@@ -1,4 +1,4 @@
-include_recipe 'python'
+include_recipe 'poise-python'
 include_recipe 'runit'
 
 venv = node['mimic']['virtualenv']
